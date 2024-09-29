@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container {
+width: 80%;
+margin: auto;
+
+}
+.d-flex {
+display: flex;
+flex-wrap: wrap;
+}
+header .fifi {
+    justify-content: space-between;
+   
+}
+header {
+    background-color: rgb(39, 39, 39);
+    position: fixed;
+    width: 100%;
+    z-index: 999 ;
+    
+}
+
+
+
+
+
+header ul{
+    list-style-type: none;
+ 
+}
+
+header a{
+color: white;
+text-decoration: none;
+margin: 16px;
+font-size: 20px;
+display: inline-block;
+transition: 0.4s;
+}
+
+header a:hover {
+color: #9c7e0f;
+
+}
+#welcome {
+    height: 100vh;
+    background-image:  url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    
+    
+}
+
+#welcome .box-text{
+text-align: center;
+color: white;
+padding-top: 15%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#welcome .box-text p{
+    font-style: italic;
+    font-size: 3rem;
+
+}
+#welcome .box-text h1{
+    font-size: 5rem;
+    margin-bottom:70px ;
+
+}
+#welcome .box-text a{
+    background-color:#FFC800;
+    padding: 30px 40px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+#welcome .box-text a:hover{
+background-color:#9c7e0f; 
+
+
+}
+#services .box-text {
+    text-align: center;
+    padding-top:4.5rem;
+}
+#services .box-text h2 {
+font-size:3rem ;
+opacity: 0.8;
+}
+#services .box-text p {
+opacity: 0.6;
+margin:15px 0 30px 0;
+}
+#services .boxes {
+    display: flex;
+    flex-wrap: wrap;
+   padding: 20px;
+}
+#services .boxes .box h4 {
+margin: 20px 0 20px 0;
+font-size: 30px;
+font-weight: bold;
+opacity: 0.9;
+
+}
+#services .boxes .box p {
+ font-size: 20px;
+ opacity: 0.8;}
+
+
+
+
+#services .boxes .box {
+    width: 27%;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+
+#services .boxes .box i{
+background-color:#FFC800;
+padding: 30px ;
+font-size: 60px;
+border-radius: 50%;
+}
+
+
+
+
+#portfolio {
+padding: 5rem 0;
+background-color: #F8F9FA;
+width: 100%;
+
+}
+
+#portfolio .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100vh;
+    margin: 40px auto;
+}
+#portfolio .boxes .box {
+width: 28%;
+ margin: 28px;
+}
+#portfolio .boxes .box .top-box img{
+width: 100%;
+width: 100%;
+vertical-align: middle;
+
+
+}
+#portfolio .boxes .box .top-box {
+    position: relative;
+}
+#portfolio .boxes .box .top-box .yellow-box{
+position: absolute;
+top: 0%;
+left: 0%;
+width: 100%;
+height: 100%;
+background-color: rgba(255, 200, 0, 0.9);
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.3s;
+opacity: 0;
+}
+#portfolio .boxes .box .top-box i{
+font-size: 60px;   
+}
+#portfolio .boxes .box .bottom-box {
+text-align: center;
+background-color: white;
+padding: 3rem 0;
+box-shadow: 0  0 20px 0 rgb(192, 192, 189);
+}
+#portfolio .boxes .box .top-box:hover .yellow-box{
+opacity: 1;
+
+
+}
+#portfolio .boxes .box .bottom-box h4{
+font-size: 1.7rem;
+margin-bottom: 10px;}
+#portfolio .boxes .box .bottom-box p{
+font-style: italic;
+font-size: 17px;
+opacity: 0.7;
+}
